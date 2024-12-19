@@ -10,10 +10,7 @@ import io.cucumber.junit.CucumberOptions.SnippetType;
 @CucumberOptions(
 				features = "src\\test\\resources\\loginScenario.feature", 
 				glue = "stepDefinition",
-				snippets = SnippetType.CAMELCASE,
-				dryRun = true
-				
-		)
+				snippets = SnippetType.CAMELCASE )
 public class RunnerClass {
 
 }
